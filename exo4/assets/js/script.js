@@ -1,5 +1,5 @@
 let nom = prompt("donnez votre nom")
-let age = prompt("donnez votre âge")
+let age = +prompt("donnez votre âge")
 let ville = prompt("donnez votre ville d'habitation")
 let email = prompt("donnez votre adresse email")
 alert("Nom: " + nom + "\n" + "Age: " + age + "\n" + "Ville: " + ville + "\n" + "E-mail: " + email)
